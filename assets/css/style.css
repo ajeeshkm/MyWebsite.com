@@ -2230,19 +2230,20 @@ section {
 
 /* The popup form - hidden by default */
 .form-popup {
-    display: none;
-    position: fixed;
+    /*display: none;*/
+   /* position: fixed;
     bottom: 55%;
     right: 10%;
     border: 3px solid #f1f1f1;
-    z-index: 9;
+    z-index: 9;*/
 }
 
 /* Add styles to the form container */
 .form-container {
-    max-width: 300px;
+    max-width: 377px;
     padding: 10px;
     background-color: white;
+    margin: 0 auto;
 }
 
     /* Full-width input fields */
